@@ -118,7 +118,7 @@ CREATE TABLE Produto (
   FOREIGN KEY (id_funcao) REFERENCES Funcao (id_funcao),
   FOREIGN KEY (id_manual) REFERENCES Manual (id_manual),
   FOREIGN KEY (id_modelo_antigo) REFERENCES ModeloAntigo (id_modelo_antigo),
-  FOREIGN KEY (id_montagem) REFERENCES Montagem (id_montagem)
+  FOREIGN KEY (id_montagem) REFERENCES Montagem (id_montagem) 
 );
 
 -- Table structure for table "Usuario"
